@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>index</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+  <link rel="stylesheet" href="./style.css" />
+</head>
+
+<body style="background-color: rgb(235, 235, 235)">
+  <!-- 導覽列 -->
+  <div class="pos-f-t navbar-fixed-top">
+    <div class="collapse" id="navbarToggleExternalContent">
+      <div class="bg-light p-4">
+        <img src="./img/Logo.png" width="100" height="60" class="img-fluid" alt="">
+        <span class="text-muted"><br>Enjoy Your Trip.</span>
+      </div>
+    </div>
+    <nav class="navbar navbar-light bg-light navbar-fixed-top">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent"
+        aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <form class="form-inline my-0 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" />
+      </form>
+      <a class="navbar-brand" href="#">
+        <img src="./img/通知.png" width="40" height="50" alt="" />
+      </a>
+    </nav>
+  </div>
+
+  <div class="container code_div" style="border: 5px solid #87ff6f00;">
+    <div class="row justify-content-between" style="border: 5px solid #ff6f6f00; height: 10000px;">
+      <div class="col-6" style="border: 5px solid #6f7dff00;">
+        <div class="row" style="border: 5px solid #8b8b8b;height: 120px;">
+        </div>
+        <div class="row" style="border: 5px solid #8b8b8b;height: 150px;">
+        </div>
+        <div class="row" style="border: 5px solid #8b8b8b;height: 120px;">
+        </div>
+        <div class="row" style="border: 5px solid #8b8b8b;height: 170px;">
+        </div>
+        <div class="row" style="border: 5px solid #8b8b8b;height: 150px;">
+        </div>
+        <div class="row" style="border: 5px solid #8b8b8b;height: 120px;">
+        </div>
+      </div>
+      <div class="col-5" style="border: 5px solid #896fff00;">
+        <div class="row" style="border: 5px solid #8b8b8b;height: 220px;">
+        </div>
+        <div class="row" style="border: 5px solid #8b8b8b;height: 120px;">
+        </div>
+        <div class="row" style="border: 5px solid #8b8b8b;height: 180px;">
+        </div>
+        <div class="row" style="border: 5px solid #8b8b8b;height: 150px;">
+        </div>
+        <div class="row" style="border: 5px solid #8b8b8b;height: 170px;">
+        </div>
+        <div class="row" style="border: 5px solid #8b8b8b;height: 120px;">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 下方列 -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light navbar-fixed-bottom">
+    <div class="d-flex justify-content-around col-2 bt_index" style="border: 5px solid #a5ff9300">
+      <img src="./source/Icon/1基本頁面/Home_icon.png" 
+        class="img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}"
+        style="max-width: 300%;">
+    </div>
+    <div class="d-flex justify-content-around col-2 bt_index" style="border: 5px solid #a5ff9300">
+      <img src="./source/Icon/1基本頁面/Heart_icon.png"
+        class="img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}"
+        style="max-width: 300%;">
+    </div>
+    <div class="d-flex justify-content-around col-3 bt_index popup" style="border: 5px solid #a5ff9300" onclick="myFunction()">
+      <img src="./source/Icon/1基本頁面/Plus_icon.png"
+        class="img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}"
+        style="max-width: 150%;">
+        <div class="popl popuptext container" id="myPopup" style="border: 5px solid #ffffff00;">
+          <div class="row justify-content-center r" onclick="(function(){window.location.href='./ticket/index.html';})()">
+            <img src="./img/票價試算.png" class="img-fluid" style="width: 70%;">
+          </div>
+          <div class="row justify-content-center r" onclick="(function(){window.location.href='./route/index.html';})()">
+            <img src="./img/路線規劃.png" class="img-fluid" style="width: 70%;">
+          </div> 
+          <div class="row justify-content-center r" onclick="(function(){window.location.href='./info/index.html';})()">
+            <img src="./img/誤點資訊.png" class="img-fluid" style="width: 70%;" >
+          </div>
+          <div class="row justify-content-center r" onclick="(function(){window.location.href='./booking/index.html';})()"> 
+            <img src="./img/訂票網站.png" class="img-fluid" style="width: 70%;">
+          </div>
+        </div>
+    </div>
+    <div class="d-flex justify-content-around col-2 bt_index" style="border: 5px solid #a5ff9300">
+      <img src="./source/Icon/1基本頁面/Map_icon.png"
+        class="img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}"
+        style="max-width: 300%;">
+    </div>
+    <div class="d-flex justify-content-around col-2 bt_index" style="border: 5px solid #a5ff9300">
+      <img src="./source/Icon/1基本頁面/User_icon.png"
+        class="img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}"
+        style="max-width: 300%;">
+    </div>
+  </nav>
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+  <script src="./index.js"></script>
+</body>
+
+</html>

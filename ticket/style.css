@@ -1,0 +1,26 @@
+.code_div {
+    height: 10000px;
+  }
+  
+  .navbar-fixed-bottom,
+  .navbar-fixed-top {
+    position: fixed;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+  }
+  
+  .navbar-fixed-bottom {
+    bottom: 0;
+    margin-bottom: 0;
+    border-width: 1px 0 0;
+  }
+  
+  .r {
+      margin-top: 12px !important;
+      margin-bottom: 12px !important;
+    }
+  
+  .navbar {
+    padding: 0rem 1rem !important;
+  }
