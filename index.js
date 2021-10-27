@@ -1,6 +1,12 @@
-var a = screen.width*1;
-var b = document.getElementsByClassName("popl");
-b[0].style.height = a.toString()+"px";
+
+function myFunction() {
+  var popup = document.getElementById("myPopup");
+  popup.classList.toggle("show");
+  var a = screen.width*1;
+  var b = document.getElementsByClassName("popl");
+  b[0].style.height = a.toString()+"px";
+}
+
 (function () {
   var elements = document.getElementsByClassName("bt_index");
   for (var i = 0; i < elements.length; i++) {
@@ -39,8 +45,3 @@ b[0].style.height = a.toString()+"px";
     );
   }
 })();
-
-function myFunction() {
-  var popup = document.getElementById("myPopup");
-  popup.classList.toggle("show");
-}
