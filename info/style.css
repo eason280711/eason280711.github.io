@@ -16,11 +16,6 @@
     border-width: 1px 0 0;
   }
   
-  .row {
-    margin-top: 30px;
-    margin-bottom: 30px;
-  }
-  
   .r {
       margin-top: 12px !important;
       margin-bottom: 12px !important;
@@ -28,4 +23,9 @@
   
   .navbar {
     padding: 0rem 1rem !important;
+  }
+
+  .if{
+    border-bottom: 2px dashed #9b9b9b;
+    height: 3vh;
   }

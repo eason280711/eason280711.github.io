@@ -1,31 +1,72 @@
 .code_div {
-    height: 10000px;
+  height: 10000px;
+}
+
+.navbar-fixed-bottom,
+.navbar-fixed-top {
+  position: fixed;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+}
+
+.navbar-fixed-bottom {
+  bottom: 0;
+  margin-bottom: 0;
+  border-width: 1px 0 0;
+}
+
+.r {
+    margin-top: 12px !important;
+    margin-bottom: 12px !important;
   }
-  
-  .navbar-fixed-bottom,
-  .navbar-fixed-top {
-    position: fixed;
-    right: 0;
-    left: 0;
-    z-index: 1030;
-  }
-  
-  .navbar-fixed-bottom {
-    bottom: 0;
-    margin-bottom: 0;
-    border-width: 1px 0 0;
-  }
-  
-  .row {
-    margin-top: 30px;
-    margin-bottom: 30px;
-  }
-  
-  .r {
-      margin-top: 12px !important;
-      margin-bottom: 12px !important;
-    }
-  
-  .navbar {
-    padding: 0rem 1rem !important;
-  }
+
+.navbar {
+  padding: 0rem 1rem !important;
+}
+
+.board_top{
+  border: 5px solid rgb(92,131,169);
+  background-color: rgb(92,131,169);
+  height: 6vh;
+  width: 85vw;
+  margin: 0 auto;
+}
+
+.board_buttom{
+  border: 5px solid rgb(211,230,244);
+  background-color: rgb(211,230,244);
+  height: 25vh;
+  width: 85vw;
+  margin: 0 auto;
+}
+
+.btn_ticket{
+  border: 5px solid rgb(92,131,169);
+  background-color: rgb(92,131,169);
+  height: 6vh;
+  width: 40vw;
+  margin: auto;
+}
+
+.btn_ticket:active{
+  filter: brightness(90%);
+}
+
+
+
+.inner-addon {
+position: relative;
+}
+
+.inner-addon .glyphicon {
+position: absolute;
+padding: 10px;
+pointer-events: none;
+}
+
+.left-addon .glyphicon  { left:  0px;}
+.right-addon .glyphicon { right: 0px;}
+
+.left-addon input  { padding-left:  30px; }
+.right-addon input { padding-right: 30px; }

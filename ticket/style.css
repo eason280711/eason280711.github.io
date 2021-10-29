@@ -24,3 +24,49 @@
   .navbar {
     padding: 0rem 1rem !important;
   }
+
+  .board_top{
+    border: 5px solid rgb(92,131,169);
+    background-color: rgb(92,131,169);
+    height: 6vh;
+    width: 85vw;
+    margin: auto;
+  }
+
+  .board_buttom{
+    border: 5px solid rgb(211,230,244);
+    background-color: rgb(211,230,244);
+    height: 38vh;
+    width: 85vw;
+    margin: auto;
+  }
+
+  .btn_ticket{
+    border: 5px solid rgb(92,131,169);
+    background-color: rgb(92,131,169);
+    height: 6vh;
+    width: 40vw;
+    margin: auto;
+  }
+
+  .btn_ticket:active{
+    filter: brightness(90%);
+  }
+
+  
+
+.inner-addon {
+  position: relative;
+}
+
+.inner-addon .glyphicon {
+  position: absolute;
+  padding: 10px;
+  pointer-events: none;
+}
+
+.left-addon .glyphicon  { left:  0px;}
+.right-addon .glyphicon { right: 0px;}
+
+.left-addon input  { padding-left:  30px; }
+.right-addon input { padding-right: 30px; }

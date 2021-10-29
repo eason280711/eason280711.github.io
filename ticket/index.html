@@ -15,10 +15,8 @@
 
 <body style="background-color: rgb(235, 235, 235)">
   <!-- 導覽列 -->
-  <header>
     <nav class="navbar navbar-light bg-light navbar-fixed-top">
-      <img id="bk" src="../img/back.png" width="50" height="50" class="img-fluid" alt=""
-        onclick="(function(){window.location.href='../index.html';})()">
+      <img id="bk" src="../img/back.png" width="50" height="50" class="img-fluid" alt="" onclick="(function(){window.location.href='../index.html';})()">
       <form class="form-inline my-0 my-lg-0">
         <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" />
       </form>
@@ -26,14 +24,51 @@
         <img src="../img/通知.png" width="40" height="50" alt="" />
       </a>
     </nav>
-  </header>
-
-  <div class="container" style="border: 5px solid #87ff6f;height: 100vh;width: 100vw;">
-    <div class="row" style="border: 5px solid #ff6f6f;height: 40vh;width: 70vw;margin: auto;margin-top: 20vh;">
-    </div>
-    <div class="row" style="border: 5px solid #ff6f6f;height: 10vh;width: 70vw;margin: auto;margin-top: 5vh;">
-    </div>
   </div>
+
+  <div class="container" style="border: 5px solid #87ff6f00;height: 100vh;width: 100vw;">
+    <div class="row" style="border: 5px solid #ff6f6f00;height: 40vh;width: 85vw;margin: auto;margin-top: 23vh;">
+      <div class="row board_top" >
+      </div>
+      <div class="row board_buttom" >
+        <div class="form-group" style="border: 5px solid #87ff6f00;width:80vw;margin: 0 auto;">
+          <div class="inner-addon right-addon" style="margin-top: 2vh;">
+            <img src="../img/find.png" width="38" height="38" style="position: absolute;left: 67vw;" />
+            <input type="text" class="form-control" placeholder="起點" />
+          </div>
+          <div class="inner-addon right-addon" style="margin-top: 2vh;">
+            <img src="../img/find.png" width="38" height="38" style="position: absolute;left: 67vw;" />
+            <input type="text" class="form-control" placeholder="終點" />
+          </div>
+          <div class="inner-addon right-addon" style="margin-top: 2vh;">
+            <input type="text" class="form-control" placeholder="預算" />
+          </div>
+          <div class="row" style="border: 1px solid #2600ff00;margin: auto;margin-top: 5vh;">
+            <div class="col" style="border: 1px solid #15ff0000;">
+              <img src="../img/bus.png" width="40" height="40"/>
+            </div>
+            <div class="col" style="border: 1px solid #15ff0000;">
+              <img src="../img/fire.png"width="40" height="40"/>
+            </div>
+            <div class="col" style="border: 1px solid #15ff0000;">
+              <img src="../img/fast.png" width="40" height="40"/>
+            </div>
+            <div class="col" style="border: 1px solid #15ff0000;">
+              <img src="../img/bike.png" width="40" height="40"/>
+            </div>
+          </div>
+        </div>
+
+        </div>
+      </div>
+      <div class="row" style="border: 5px solid #ff6f6f00;height: 10vh;width: 70vw;margin: auto;margin-top: 7vh;">
+        <div class="btn_ticket">
+          <p class="h4 text-center font-weight-bold text-white" style="line-height:5vh;">票價試算</p>
+        </div>
+      </div>
+    </div>
+    
+  
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
